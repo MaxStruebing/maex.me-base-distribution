@@ -1,5 +1,5 @@
 /Build/
-/Configuration/
+/Configuration/*
 !/Configuration/Routes.yaml
 /Data/
 /Packages/

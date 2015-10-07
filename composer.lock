@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c3f151f9b2d46ae248859f09eb5ff71e",
-    "content-hash": "8647ae71a38a80e84b5c65424fd14d7d",
+    "hash": "afc654d65f35f1e8b8487c00c189ade8",
+    "content-hash": "568955969c1ba4e8ab4113fdce3eb83d",
     "packages": [
         {
             "name": "composer/installers",
@@ -710,6 +710,33 @@
                 "orm"
             ],
             "time": "2015-08-31 13:19:01"
+        },
+        {
+            "name": "maxs/randommovie",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MaxStruebing/MaxS.RandomMovie.git",
+                "reference": "b062f15fd0a4da71caeda2797b383294637b13ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MaxStruebing/MaxS.RandomMovie/zipball/b062f15fd0a4da71caeda2797b383294637b13ee",
+                "reference": "b062f15fd0a4da71caeda2797b383294637b13ee",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "3.0.0"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "MaxS\\RandomMovie": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Add description here",
+            "time": "2015-10-04 21:50:37"
         },
         {
             "name": "symfony/console",
@@ -2050,6 +2077,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "doctrine/migrations": 5,
+        "maxs/randommovie": 20,
         "flowpack/behat": 20
     },
     "prefer-stable": false,

@@ -9,7 +9,8 @@
     "require": {
         "typo3/flow": "3.0.*",
         "typo3/welcome": "3.0.*",
-        "doctrine/migrations": "@rc"
+        "doctrine/migrations": "@rc",
+        "maxs/randommovie": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "3.0.*",

@@ -1,0 +1,27 @@
+{
+  "name": "maex.me-base-distribution",
+  "version": "1.0.0",
+  "description": "-------- Flow 3.0 --------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxStruebing/maex.me-base-distribution.git"
+  },
+  "author": "Max Struebing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxStruebing/maex.me-base-distribution/issues"
+  },
+  "homepage": "https://github.com/MaxStruebing/maex.me-base-distribution#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "gulp": "^3.9.0",
+    "gulp-minify": "0.0.5",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.1"
+  }
+}

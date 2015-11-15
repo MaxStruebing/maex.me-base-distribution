@@ -16,9 +16,21 @@
 -
   name: 'maxs/randommovie'
   uriPattern: 'random-movie/<RandomMovieSubRoutes>'
+  defaults:
+    '@format': 'html'
   subRoutes:
     RandomMovieSubRoutes:
       package: MaxS.RandomMovie
+
+
+-
+  name: 'maxs/blog'
+  uriPattern: '<BlogSubRoutes>'
+  defaults:
+    '@format': 'html'
+  subRoutes:
+    BlogSubRoutes:
+      package: MaxS.Blog
 
 ##
 # Flow subroutes
